@@ -1,0 +1,34 @@
+{
+  "Finished Games": {
+    "ID 1": {
+      "Game Title": "Unbound:Worlds Apart",
+      "Progress": "77%",
+      "Platform": "Steam",
+      "Total Hours Played": "21",
+      "Game Finished Date": "07.08.2021",
+      "Last Played Date": "07.08.2021",
+      "Tags": [
+        "Indie",
+        "Adventure",
+        "Platformer",
+        "Atmospheric",
+        "2D"
+      ]
+    },
+    "ID 2": {
+      "Game Title": "DumpData1",
+      "Progress": "DumpData2",
+      "Platform": "DumpData3",
+      "Total Hours Played": "DumpData4",
+      "Game Finished Date": "DumpData5",
+      "Last Played Date": "DumpData6",
+      "Tags": [
+        "Indie",
+        "Adventure",
+        "Platformer",
+        "Atmospheric",
+        "2D"
+      ]
+    }
+  }
+}
