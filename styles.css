@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    margin-top:50px;
+    font-size:30px;
+}
+
+.games{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width:1240px;
+    padding: 20px;
+}
+
+.game{
+    padding:10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.game img{
+    width:100%;
+    display:block;
+}
+
+.game .title{
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom:20px;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+
+.game .description{
+    padding: 0 20px 20px 0px;
+    line-height: 22px
+}

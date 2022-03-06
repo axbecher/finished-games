@@ -1,12 +1,30 @@
-{
-  "Finished Games": {
-    "ID 1": {
-      "Game Title": "Unbound:Worlds Apart",
+[
+  {
+      "GameID": "ID 1",
+      "GameTitle": "Unbound:Worlds Apart",
+      "GameImage": "https://i.ibb.co/7gMQgF6/IT23GpH.png",
       "Progress": "77%",
       "Platform": "Steam",
-      "Total Hours Played": "21",
-      "Game Finished Date": "07.08.2021",
-      "Last Played Date": "07.08.2021",
+      "Total_Hours_Played": "21",
+      "Game_Finished_Date": "07.08.2021",
+      "Last_Played_Date": "07.08.2021",
+      "Tags": [
+        "Indie",
+        "Adventure",
+        "Platformer",
+        "Atmospheric",
+        "2D"
+      ]
+  },
+    {
+      "GameID": "ID 2",
+      "GameTitle": "DumpData1",
+      "GameImage": "https://i.ibb.co/7gMQgF6/IT23GpH.png",
+      "Progress": "87%",
+      "Platform": "DumpData3",
+      "Total_Hours_Played": "DumpData4",
+      "Game_Finished_Date": "DumpData5",
+      "Last_Played_Date": "DumpData6",
       "Tags": [
         "Indie",
         "Adventure",
@@ -15,13 +33,15 @@
         "2D"
       ]
     },
-    "ID 2": {
-      "Game Title": "DumpData1",
-      "Progress": "DumpData2",
-      "Platform": "DumpData3",
-      "Total Hours Played": "DumpData4",
-      "Game Finished Date": "DumpData5",
-      "Last Played Date": "DumpData6",
+    {
+      "GameID": "ID 3",
+      "GameTitle": "DumpData2",
+      "GameImage": "https://i.ibb.co/7gMQgF6/IT23GpH.png",
+      "Progress": "31%",
+      "Platform": "DumpData5",
+      "Total_Hours_Played": "DumpData4",
+      "Game_Finished_Date": "DumpData5",
+      "Last_Played_Date": "DumpData6",
       "Tags": [
         "Indie",
         "Adventure",
@@ -30,5 +50,4 @@
         "2D"
       ]
     }
-  }
-}
+  ]
