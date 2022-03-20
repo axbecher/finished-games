@@ -1,6 +1,57 @@
+:root{
+    --background-main-color: #121212;
+    --main-text-color:wheat;
+    --axbecher-main-cl:#F28500;
+}
+
 body{
-    background-color: #121212;
-    color:wheat
+    background-color: var(--background-main-color);
+    color:var(--main-text-color);
+}
+
+/*
+Loading screen
+*/
+
+ .progress 
+{
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background-color: var(--background-main-color);
+}
+.bar 
+{ 
+    position:relative;
+    top:50%;
+    background-color: #819ff7; 
+    width:0%; 
+    height:40px; 
+    border-radius: 10px;
+    border-color: var(--main-text-color);
+    border-width: 2px;
+    border-style: solid; 
+}
+
+
+/*
+Main
+*/
+
+::selection{
+    color: var(--background-main-color);
+    background: var(--axbecher-main-cl);
+}
+
+h1
+{
+  text-align:center;
+  font-size:35px;
+  margin-top:60px;
+  color:#A9BCF5;
 }
 
 h2{
@@ -16,44 +67,42 @@ h2{
     grid-gap: 40px;
     margin: 10px auto;
     max-width:2000px;
-    padding: 20px;
+    padding: 15px;
 }
 
-.game{
-    padding:2px;
-    
+.padding-item{
     width: 300px;
     height: 400px;
+}
+
+.card-item{
+    padding:2px;
+    width: 100%;
+    height: 100%;
+    color:red;
     box-shadow: 0 5px 10px hsla(0, 0%, 51%, 0.822);
     background-color: rgb(71, 71, 71);
 }
 
-.game img{
-    width: 100%;
-    height: 100%;
-    display:block;
-    object-fit:fill;
+.card-item .gameImage img{
+    width: 300px;
+    height: 400px;
     
+    object-fit:cover;
 }
 
-.game .title{
-    text-align:center;
-    font-size: 1.3rem;
-    padding-bottom:5px;
-    font-weight: 600;
-    text-transform:uppercase;
-    letter-spacing: .03rem;
+.card-item:hover{
+    box-shadow: 0 5px 20px var(--axbecher-main-cl);
+    background-color: var(--axbecher-main-cl);
 }
 
-.game .description{
-    padding: 0 20px 20px 0px;
-    line-height: 22px
-}
 
-.game .progress{
+
+
+.progress-area .progressArea{
     position: relative;
-    left:2%;
-    bottom:418px;
+    left: 2%;
+    bottom: 467px;
     font-weight: 1100;
     font-size: 25px;
     width: 25%;
@@ -64,14 +113,14 @@ h2{
     border-width: 1px;
     border-color: rgba(61, 61, 61, 0);
     text-align: center;
-    z-index: 10;
+    z-index: 20;
     background-color: #696969;
     color: rgb(255, 255, 255);
 
     box-shadow: 0 5px 5px #696969;
 }
 
-.game .gameTitle{
+.gameTitle-area .gameTitle{
     position: relative;
     bottom:124px;
     left:0px;
@@ -89,7 +138,7 @@ h2{
     color: rgb(255, 255, 255);  
 }
 
-.game .hoursPlayed{
+.hoursPlayed-area{
     position: relative;
     bottom:520px;
     left:163px;
@@ -108,7 +157,7 @@ h2{
     box-shadow: 0 5px 5px hsla(0, 0%, 25%, 0.822);
 }
 
-.game .platformImg{
+.card-item .platform-area img{
     position: relative;
     bottom:545px;
     left:245px;
